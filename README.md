@@ -41,7 +41,7 @@ The following are the steps for detecting if the affected packages exist in your
 
         `brew install yara`
 
-- Run the yara cli tool in the directory of your project or the directory where the installed packages are present. On macos the location is `/opt/homebrew/lib/node_modules`.
+- Run the yara cli tool in the directory of your project or the directory where the installed packages are present. On macOS the location is `/opt/homebrew/lib/node_modules`.
 
         `yara -w mini_shai_hulud_package_dependencies_rule.yar <file name or directory>`
 
