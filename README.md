@@ -27,13 +27,13 @@ This `CSV` can be found in the socket.dev link provided in the References sectio
 
 ![The CSV Structure of 22-packages.csv file that contains package details](Images/22-packages-csv-structure.png)
 
-### Preparing the YARA Rule
+## Preparing the YARA Rule
 
 The package details for the npm ecosystem were parsed and extracted from the csv, as shown in the below image, on the python3 REPL interface.
 
 ![Using the python3 interpreter for data munging tasks](Images/python3_REPL_code.png)
 
-### Using the YARA Rule 
+## Using the YARA Rule 
 
 The following are the steps for detecting if the affected packages exist in your npm environment. 
 
