@@ -9,7 +9,7 @@ This `CSV` can be found in the socket.dev link provided in the References sectio
 
 `head -n 5 22-packages.csv | tennis`
 
-![The CSV Structure of 22-packages.csv file that contains package details](Images/22_packages_csv_structure.png)
+![The CSV Structure of 22-packages.csv file that contains package details](Images/22-packages-csv-structure.png)
 
 ## Preparing the YARA Rule
 
